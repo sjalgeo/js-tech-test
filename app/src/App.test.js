@@ -4,6 +4,6 @@ import App from "./App";
 
 test("renders learn project title", () => {
   const { getByText } = render(<App />);
-  const headerElement = getByText(/Stars Tech Test/i);
+  const headerElement = getByText(/Connecting.../i);
   expect(headerElement).toBeInTheDocument();
 });
