@@ -19,6 +19,13 @@ exports[`<Live /> renders as expected 1`] = `
         Everton
         <br />
         West Ham
+        <br />
+        <a
+          class="c-event__full-market"
+          href="/event/111"
+        >
+          View Full Market
+        </a>
       </div>
       <div
         class="c-event__score"
